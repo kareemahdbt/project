@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 300px 0 300px;
+  font-size: 12px;
+  line-height: 18px;
+}
+h1 {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: medium;
+}
+ span {
+  background: #4226ad;
+  color: #ffff00;
+}
+.main nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.main nav a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.main nav a:hover {
+  color: #fbeb1d;
+}
+.ipt {
+  outline: none;
+  background: none;
+  border: 2px solid #ffff00;
+  color: #4226ad;
+  cursor: pointer;
+  width: 60px;
+  height: 25px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+.ipt:hover {
+  border: 1px solid #ffff00;
+  background: #4226ad;
+  color: white;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: bold;
+}
+h2 {
+  padding-top: 10px;
+}
+.sub {
+  margin: 40px;
+  display: flex;
+}
+.ipt-2 {
+  width: 250px;
+  height: 40px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid;
+  text-align: center;
+}
+.btn {
+  background: #4226ad;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  transition: .4s;
+  margin-left: 10px;
+  outline: none;
+}
+.btn:hover {
+  background:#ffff00 ;
+  color:#4226ad ;
+}
+.imge {
+  margin-bottom: 100px;
+}
+.btn-2{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    height: 30px;
+    width: 100px;
+    background: #ffff00 ;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  transition: .4s;
+  outline: none;
+}
+.btn-2:hover{
+    background: #4226ad ;
+    color: #ffff00;
+  }  
+  .btn-3{
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 30px;
+    width: 100px;
+    background: #ffff00 ;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  transition: .4s;
+  outline: none;
+}
+.btn-3:hover{
+    background: #4226ad ;
+    color: #ffff00;
+  }  
+  .ipt-3{
+      margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid;
+    text-align: center;   
+  }
+  footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background:white;
+      color: black;
+      box-shadow: 2px  2px 2px 2px black;
+      padding-top: 15px;
+      margin: 13px;
+      height: 30px;
+      font-size: 20px;
+  }
+  
